@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Portfo<span style="color:#ec4899">lio.</span></a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <h1>My <span style="background: linear-gradient(to right, var(--primary), var(--secondary)); -webkit-background-clip: text; background-clip: text; color: transparent;">Projects</span></h1>
+            <p style="color: var(--text-muted);">Here are a few of my recent works.</p>
+        </section>
+
+        <section class="projects-grid" id="projectsGrid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <img src="assets/images/project1.png" alt="Project 1 Dashboard" class="project-img">
+                <div class="project-info">
+                    <h3>Analytics Dashboard</h3>
+                    <p>A beautiful dark-mode analytics dashboard built to monitor real-time web metrics. Uses modern glassmorphism UI elements.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Tailwind</span>
+                        <span class="tech-tag">Chart.js</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <img src="assets/images/project2.png" alt="Project 2 App Layout" class="project-img">
+                <div class="project-info">
+                    <h3>Fitness Tracker App</h3>
+                    <p>A vibrant, modern mobile application interface for tracking fitness targets, featuring a bright, energetic color palette.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Flutter</span>
+                        <span class="tech-tag">Firebase</span>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div style="width: 100%; height: 200px; background: linear-gradient(135deg, #1e293b, #0f172a); display:flex; align-items:center; justify-content:center; color: var(--text-muted); transition: transform 0.5s ease;" class="project-img">
+                    <span style="font-size: 3rem;">+</span>
+                </div>
+                <div class="project-info">
+                    <h3>E-Commerce Platform</h3>
+                    <p>A full-stack e-commerce project with cart logic, payment gateway integration, and a premium seamless user experience.</p>
+                    <div class="tech-stack">
+                        <span class="tech-tag">Next.js</span>
+                        <span class="tech-tag">Stripe</span>
+                        <span class="tech-tag">MongoDB</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
